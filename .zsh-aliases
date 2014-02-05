@@ -1,0 +1,12 @@
+alias g="git"
+
+alias irb="irb --prompt-mode simple"
+
+alias cu="cucumber --format progress"
+
+alias c="gcc"
+
+alias t="tmux -2 new -s"
+alias tl="tmux -2 ls"
+alias tk="tmux -2 kill-session -t"
+alias ta="tmux -2 attach -t"

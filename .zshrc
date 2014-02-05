@@ -7,23 +7,7 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="af-magic"
 
-# Example aliases
-alias g="git"
 
-alias ruby="ruby -w"
-alias irb="irb --prompt-mode simple"
-
-alias cu="cucumber --format progress"
-
-alias c="gcc"
-
-alias tmux="tmux -2"
-alias t="tmux -2 new -s"
-alias tl="tmux -2 ls"
-alias tk="tmux -2 kill-session -t"
-alias ta="tmux -2 attach -t"
-
-DISABLE_AUTO_TITLE=true
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -37,7 +21,7 @@ DISABLE_AUTO_TITLE=true
 # DISABLE_LS_COLORS="true"
 
 # Uncomment following line if you want to disable autosetting terminal title.
-# DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE="true"
 
 # Uncomment following line if you want to disable command autocorrection
 # DISABLE_CORRECTION="true"
@@ -63,16 +47,9 @@ plugins=(z)
 
 source $ZSH/oh-my-zsh.sh
 
-if [[ -s $HOME/.rvm/scripts/rvm ]]; then
-  source $HOME/.rvm/scripts/rvm;
-fi
-
 # User configuration
-export PATH="/usr/local/bin":$PATH
 # export PATH="/Users/slava/.rvm/gems/ruby-2.1.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/Users/slava/"
 # export MANPATH="/usr/local/man:$MANPATH"
-export BUNDLER_EDITOR="subl -w"
-export EDITOR="subl -w"
 
 # # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -86,4 +63,6 @@ export EDITOR="subl -w"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+source $HOME/.zsh-aliases
 
