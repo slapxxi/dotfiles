@@ -7,7 +7,6 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="af-magic"
 
-
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -40,10 +39,7 @@ DISABLE_AUTO_TITLE="true"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
-plugins=(gem)
-plugins=(git-prompt)
-plugins=(z)
+plugins=(git gem z)
 
 source $ZSH/oh-my-zsh.sh
 
