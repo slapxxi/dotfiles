@@ -1,0 +1,5 @@
+# Git functions
+gsbm() {
+  git show-branch --more=$1
+}
+
