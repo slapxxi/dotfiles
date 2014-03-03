@@ -1,12 +1,47 @@
-alias g="git"
-
 alias irb="irb --prompt-mode simple"
 
 alias cu="cucumber --format progress"
 
 alias c="gcc"
 
+# Tmux aliases
 alias t="tmux -2 new -s"
 alias tl="tmux -2 ls"
 alias tk="tmux -2 kill-session -t"
 alias ta="tmux -2 attach -t"
+
+# Git aliases
+alias g="git"
+
+alias ga="git add"
+
+alias gl="git log"
+alias glo="git log --oneline"
+
+alias gst="git status"
+
+alias gd="git diff"
+
+alias gbr="git branch"
+alias gsb="git show-branch"
+
+alias gsr="git show-ref"
+alias gsrh="git show-ref --head"
+alias gsra="git show-ref --abbrev"
+
+alias grf="git reflog"
+
+alias glst="git ls-tree"
+alias glsf="git ls-files"
+
+alias gco="git checkout"
+alias gci="git commit"
+
+alias gr="git remote"
+alias gra="git remote add"
+alias grao="git remote add origin"
+
+alias gcn="git clone"
+
+alias gm="git merge"
+
