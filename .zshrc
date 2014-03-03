@@ -61,4 +61,5 @@ source $ZSH/oh-my-zsh.sh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 source $HOME/.zsh-aliases
+source $HOME/.zsh-functions
 
