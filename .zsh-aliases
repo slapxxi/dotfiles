@@ -41,6 +41,10 @@ alias gr="git remote"
 alias gra="git remote add"
 alias grao="git remote add origin"
 
+alias gp="git push"
+alias gpo="git push origin"
+alias gpom="git push origin master"
+
 alias gcn="git clone"
 
 alias gm="git merge"
