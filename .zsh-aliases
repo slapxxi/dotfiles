@@ -1,37 +1,54 @@
+# ruby
+alias rb="ruby"
 alias irb="irb --prompt-mode simple"
+alias pry="pry --simple-prompt"
 
-alias cu="cucumber --format progress"
+# gcc
+alias c="gcc -Wall"
 
-alias c="gcc"
+# postgres
+alias pg="postgres"
 
-# Tmux aliases
+# tmux
 alias t="tmux -2 new -s"
 alias tl="tmux -2 ls"
 alias tk="tmux -2 kill-session -t"
 alias ta="tmux -2 attach -t"
 
-# Git aliases
+# git 
 alias g="git"
 
+# git add
 alias ga="git add"
+alias gaa="git add --all"
 
+# git log
 alias gl="git log"
 alias glo="git log --oneline"
+alias gla="git log --decorate --oneline --graph --abbrev-commit --pretty=format:'%Cred%h%Creset %Cblue%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"
 
+# git status
 alias gst="git status"
 
+# git diff
 alias gd="git diff"
+alias gdc="gid diff --cached"
 
-alias gbr="git branch"
-alias gsb="git show-branch"
-
-alias gsr="git show-ref"
-
-alias grf="git reflog"
-
-alias gco="git checkout"
+# git commit
 alias gci="git commit"
 
+# git branch
+alias gb="git branch"
+alias gsb="git show-branch"
+
+# git checkout
+alias gco="git checkout"
+
+# git reflog
+alias gsr="git show-ref"
+alias grf="git reflog"
+
+# git remote
 alias gr="git remote"
 alias gra="git remote add"
 alias grao="git remote add origin"
