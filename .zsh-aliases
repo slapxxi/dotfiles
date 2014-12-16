@@ -32,7 +32,7 @@ alias gst="git status"
 
 # git diff
 alias gd="git diff"
-alias gdc="gid diff --cached"
+alias gdc="git diff --cached"
 
 # git commit
 alias gci="git commit"
