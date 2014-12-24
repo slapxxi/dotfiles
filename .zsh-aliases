@@ -29,6 +29,7 @@ alias gla="git log --decorate --oneline --graph --abbrev-commit --pretty=format:
 
 # git status
 alias gst="git status"
+alias gstv="git status -v"
 
 # git diff
 alias gd="git diff"
@@ -36,6 +37,7 @@ alias gdc="git diff --cached"
 
 # git commit
 alias gci="git commit"
+alias gcia="git add --all && git commit"
 
 # git branch
 alias gb="git branch"
@@ -44,14 +46,27 @@ alias gsb="git show-branch"
 # git checkout
 alias gco="git checkout"
 
+# git reset
+alias gres="git reset"
+alias gresh="git reset --hard"
+
+# git clean
+alias gcl="git clean"
+alias gclf="git clean -f"
+
 # git reflog
-alias gsr="git show-ref"
-alias grf="git reflog"
+alias gsref="git show-ref"
+alias grefl="git reflog"
+
+# git rebase
+alias greb="git rebase"
+alias grebi="git rebase -i"
 
 # git remote
 alias gr="git remote"
 alias gra="git remote add"
 alias grao="git remote add origin"
+alias grrem="git remote remove"
 
 alias gp="git push"
 alias gpo="git push origin"
